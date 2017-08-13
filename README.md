@@ -30,6 +30,38 @@ json.pipe(convert).pipe(csv)
 | header | Array | 数据的字段名 | `['name', 'age', 'tel']`
 | headerDisplay | Array | 数据的显示名称 | `['姓名', '年龄', '电话']` |
 
+### Event
+
+- [parse](#parse)
+- [convert](#convert)
+- [error](#error)
+
+### parse
+
+##### 参数
+
+| 名称 | 类型 | 描述 |
+| --- | --- | --- |
+| obj | Object | 解析的每个对象 |
+| index | Number | 第几个解析的对象 |
+
+### convert
+
+##### 参数
+
+| 名称 | 类型 | 描述 |
+| --- | --- | --- |
+| convertStr | String | 格式化的字符串。 |
+| index | Number | 第几个解析的对象 |
+
+### error
+
+##### 参数
+
+| 名称 | 类型 | 描述 |
+| --- | --- | --- |
+| error | Error | 转换过程出现的错误。 |
+
 ### Simple
 
 ```javascript
