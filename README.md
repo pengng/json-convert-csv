@@ -1,6 +1,34 @@
 # json-convert-csv
 
+[![npm](https://img.shields.io/npm/v/json-convert-csv.svg?style=plastic)](https://www.npmjs.com/package/json-convert-csv)
+[![GitHub stars](https://img.shields.io/github/stars/pengng/json-convert-csv.svg?style=plastic&label=Star)](https://github.com/pengng/json-convert-csv/stargazers)
+[![label](https://img.shields.io/github/issues-raw/pengng/json-convert-csv/website.svg?style=plastic)](https://github.com/pengng/json-convert-csv/issues)
+
 json 数据转换为csv表格。
+
+```javascript
+[
+  {
+    "name": "小白",
+    "sex": "男",
+    "age": "18",
+    "tel": "1383794XXXX"
+    "address": "广东省 广州市"
+  },
+  {
+    "name": "小红",
+    "sex": "女",
+    "age": "14",
+    "tel": "1337893XXXX",
+    "address": "广东省 广州市"
+  }
+]
+```
+
+| 姓名 | 性别 | 年龄 | 电话 | 地址 |
+| --- | :---: | :---: | --- | --- |
+| 小白 | 男 | 18 | 1383794XXXX | 广东省 广州市 |
+| 小红 | 女 | 14 | 1337893XXXX | 广东省 广州市 |
 
 ### Usage
 
