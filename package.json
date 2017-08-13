@@ -1,0 +1,21 @@
+{
+  "name": "json-convert-csv",
+  "version": "1.0.0",
+  "description": "convert json to csv",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengng/json-convert-csv.git"
+  },
+  "keywords": [
+    "json",
+    "csv",
+    "convert"
+  ],
+  "author": "yupeng.kuo <yupeng.kuo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengng/json-convert-csv/issues"
+  },
+  "homepage": "https://github.com/pengng/json-convert-csv#readme"
+}
